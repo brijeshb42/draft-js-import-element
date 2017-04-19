@@ -1,7 +1,7 @@
 {
-  "name": "draft-js-import-element",
-  "version": "0.4.3",
-  "description": "DraftJS: Import Element to ContentState",
+  "name": "pb-draft-js-import-element",
+  "version": "0.4.4",
+  "description": "PB - DraftJS: Import Element to ContentState",
   "main": "lib/main.js",
   "scripts": {
     "build": "babel src --ignore \"_*\" --out-dir lib",
@@ -40,13 +40,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sstur/draft-js-import-element.git"
+    "url": "git+ssh://git@github.com/brijeshb42/draft-js-import-element.git"
   },
   "keywords": [
     "draft-js",
     "import-element"
   ],
-  "author": "sstur@me.com",
   "contributors": [
     {
       "name": "Per Nilsson",
@@ -59,7 +58,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sstur/draft-js-import-element/issues"
+    "url": "https://github.com/brijeshb42/draft-js-import-element/issues"
   },
-  "homepage": "https://github.com/sstur/draft-js-import-element#readme"
+  "homepage": "https://github.com/brijeshb42/draft-js-import-element#readme"
 }

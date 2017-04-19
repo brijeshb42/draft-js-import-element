@@ -181,7 +181,7 @@ class BlockGenerator {
       // have collapsed whitespace we can change it back to normal line breaks.
       text = text.split(SOFT_BREAK_PLACEHOLDER).join('\n');
       // Discard empty blocks (unless otherwise specified).
-      if (text.length || includeEmptyBlock) {
+      if (text.length || includeEmptyBlock || block.type === 'atomic') {
         contentBlocks.push(
           new ContentBlock({
             key: genKey(),
